@@ -14,3 +14,8 @@ function increaseRankBy(n) {
     lis[i].innerHTML = parseInt(lis[i].innerHTML) + n
   }
 }
+
+function deepestFunction() {
+  let hellaDeep = document.getElementbyId('grand-node').querySelectorAll('div');
+  return hellaDeep
+}
