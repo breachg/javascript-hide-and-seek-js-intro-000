@@ -15,7 +15,7 @@ function increaseRankBy(n) {
   }
 }
 
-function deepestFunction() {
+function deepestChild() {
   let hellaDeep = document.getElementbyId('grand-node').querySelectorAll('div');
   return hellaDeep
 }
